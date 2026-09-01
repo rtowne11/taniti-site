@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taniti</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/index.html" class="logo">
+        <img src="/images/taniti-logo.png" alt="Taniti logo" />
+      </a>
+    </header>
+    <nav class="navbar taniti-navbar">
+      <div class="container-fluid justify-content-center">
+        <div class="navbar-nav flex-row gap-2">
+          <a class="nav-link nav-button" href="adventures.html">Adventures</a>
+          <a class="nav-link nav-button" href="trip_costs.html">Trip Costs</a>
+
+        </div>
+        <a href="index.html" class="home-link" aria-label="Home"
+          ><i class="bi bi-house-fill"></i
+        ></a>
+      </div>
+    </nav>
+    <main>
+      <!-- Adventures Intro -->
+      <section class="adventures-intro">
+        <div class="container">
+          <h1 class="display-4 mb-2">Taniti Adventures</h1>
+
+          <p class="adventure-description">
+            Whether you're looking for an exciting outdoor adventure or a
+            relaxing way to experience the island, Taniti offers activities for
+            every type of traveler. Explore the island's tropical rainforest,
+            hike near the volcano, snorkel in clear Pacific waters, spend the
+            day fishing, or relax along Taniti's beaches. Visitors can also
+            discover the island's culture at the local museum, explore the
+            coastline on a boat tour, or experience Taniti's nightlife with a
+            pub crawl. Browse the activities below to find adventures that fit
+            your trip.
+          </p>
+
+          <!-- Filters -->
+          <div class="adventure-filters">
+            <!-- Category Filters -->
+            <div class="filter-section">
+              <h2 class="h5 mb-3">Categories:</h2>
+              <div class="d-flex flex-wrap gap-2">
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="water"
+                >
+                  Water
+                </button>
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="island-tours"
+                >
+                  Island Tours
+                </button>
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="culture"
+                >
+                  Culture
+                </button>
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="nightlife"
+                >
+                  Nightlife
+                </button>
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="wildlife-nature"
+                >
+                  Wildlife/Nature
+                </button>
+                <button
+                  class="btn filter-btn category-filter"
+                  type="button"
+                  data-filter="outdoor"
+                >
+                  Outdoor
+                </button>
+              </div>
+            </div>
+            <!-- Activity Filters -->
+            <div class="filter-section mt-4">
+              <button
+                class="btn activity-toggle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#activityFilters"
+                aria-expanded="false"
+                aria-controls="activityFilters"
+              >
+                Browse by Activity
+                <i class="bi bi-chevron-down ms-2"></i>
+              </button>
+            </div>
+            <div class="collapse mt-3" id="activityFilters">
+              <div class="d-flex flex-wrap gap-2">
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="arcade"
+                >
+                  Arcade
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="art-gallery"
+                >
+                  Art Gallery
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="beaches"
+                >
+                  Beaches
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="boat-tours"
+                >
+                  Boat Tours
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="bus-tours"
+                >
+                  Bus Tours
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="dancing"
+                >
+                  Dancing
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="fishing"
+                >
+                  Fishing
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="golfing"
+                >
+                  Golfing
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="helicopter"
+                >
+                  Helicopter
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="museum"
+                >
+                  Museum
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="rainforests"
+                >
+                  Rainforests
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="snorkeling"
+                >
+                  Snorkeling
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="pub-crawl"
+                >
+                  Pub Crawl
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="theater"
+                >
+                  Theater
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="volcano-tours"
+                >
+                  Volcano Tours
+                </button>
+                <button
+                  class="btn filter-btn activity-filter"
+                  type="button"
+                  data-filter="ziplining"
+                >
+                  Ziplining
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="adventure-results py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="mb-0">Adventure Results:</h2>
+            <p class="mb-0 text-muted">
+              <span id="resultCount"></span> adventures found
+            </p>
+          </div>
+
+          <div class="row g-4" id="adventureResults"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="index.html">
+            <img
+              src="images/taniti-logo.png"
+              alt="Taniti logo"
+              class="footer-logo"
+            />
+          </a>
+
+          <p>Images generated using OpenAI's ChatGPT</p>
+          <p>&copy; 2026 Taniti</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="adventures_query.js"></script>
+  </body>
+</html>

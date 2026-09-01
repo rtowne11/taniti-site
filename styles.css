@@ -1,0 +1,610 @@
+/*Primary	🌋 Charcoal	#292929
+Secondary	🌿 Deep jungle green	#285943
+CTA / Accent	🔥 Lava orange	#E85D24
+Secondary accent	🟡 Golden amber	#F2A900
+Background	🏝️ Warm sand	#F7F1E3
+Text	Near black	#202020
+*/
+:root {
+     --charcoal-dark: #202020;
+    --charcoal: #292929;
+    --charcoal-light: #414141;
+
+    --teal: #276c6c;
+    --teal-dark: #1d5252;
+    --jungle-green: #285943;
+    --jungle-green-light: #A8C7B9;
+    --lava-orange: #E85D24;
+    --amber: #F2A900;
+    --sand: #F7F1E3;
+    --sand-dark: #b3aca2;
+    --text-dark: #202020;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--sand);
+    color: var(--text-dark);
+    font-family: "Roboto Slab", serif;
+}
+.site-header {
+    text-align: center;
+    line-height: 0;
+}
+.taniti-navbar .container-fluid {
+    position: relative;
+}
+
+.home-link {
+    margin-left: 10px;
+    flex-shrink: 0;
+    font-size: 2rem;
+    color: var(--sand);
+    text-decoration: none;
+}
+
+.home-link:hover {
+    opacity: 0.7;
+}
+.logo {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo img {
+   width: 400px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+}
+
+.taniti-navbar{
+    background-color: var(--charcoal);
+
+}
+
+.taniti-navbar .nav-button {
+    color: var(--sand);
+    padding: 12px 22px;
+    border-radius: 5px;
+
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+.taniti-navbar .nav-button:hover {
+    background-color: var(--charcoal-light);
+   color: var(--sand-dark);
+}
+.btn-adventure {
+    background-color: var(--lava-orange);
+    color: var(--sand);
+}
+.hero {
+    min-height: 420px;
+    width: 100%;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("../images/volcano-hero.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    text-align: center;
+    color: var(--sand);
+}
+
+.hero-content h1 {
+    font-family: "Roboto Slab", serif;
+   
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    display: inline-block;
+
+    background-color: var(--jungle-green);
+    color: var(--sand);
+
+    padding: 12px 20px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.7rem;
+
+    transition: background-color 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: var(--charcoal-light);
+    color: var(--sand-dark);
+}
+.popular-adventures {
+    background-color: var(--charcoal);
+    color: var(--sand);
+    
+   
+}
+.sample-budgets h2 {
+    color: var(--sand);
+}
+.popular-adventures h2 {
+    font-size: 2rem;
+
+}
+
+.adventure-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.adventure-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.16);
+}
+
+.adventure-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.adventure-card .card-title {
+    font-weight: 600;
+}
+
+.adventure-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+.adventure-button:hover {
+    background-color: #1d5252;
+    color: var(--sand);
+}
+
+/* View all button */
+.view-all-button {
+    border: 2px solid #276c6c;
+    color: #276c6c;
+    padding: 10px 24px;
+}
+
+.view-all-button:hover {
+    background-color: #276c6c;
+    color: var(--sand);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.footer-logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+.adventure-gallery {
+    background-color: var(--sand);
+}
+
+#adventureCarousel {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.gallery-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+
+.carousel-caption h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.gallery-button {
+    background-color: #276c6c;
+    color: white;
+    padding: 10px 24px;
+}
+
+.gallery-button:hover {
+    background-color: #1d5252;
+    color: white;
+}
+.adventures-intro {
+    padding: 40px 0;
+}
+
+.adventures-intro h1 {
+    color: var(--charcoal);
+}
+
+.adventure-description {
+    max-width: 900px;
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-bottom: 35px;
+}
+
+.adventure-filters {
+    margin-top: 25px;
+}
+.filter-section {
+    padding-bottom: 20px;
+}
+
+.filter-btn {
+    border: 1px solid var(--charcoal);
+    color: var(--charcoal);
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-size: 0.95rem;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: var(--charcoal);
+    color: var(--sand);
+}
+
+/* Activity dropdown button */
+.activity-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--charcoal);
+}
+
+.activity-toggle:hover {
+    opacity: 0.75;
+}
+
+
+.adventure-category {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    margin-bottom: 8px;
+    color: #276c6c;
+}
+
+.adventure-button {
+    background-color: #276c6c;
+    color: white;
+    border: none;
+}
+
+.adventure-button:hover {
+    background-color: #1d5252;
+    color: white;
+}
+.sample-budgets {
+    background-color: var(--charcoal);
+}
+
+.budget-card {
+    background-color: var(--sand);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.budget-card .card-body
+ {
+    padding: 25px;
+}
+
+.budget-button {
+    background-color: #276c6c;
+    color: var(--sand);
+    border: none;
+}
+
+.budget-button:hover {
+    background-color: #1d5252;
+    color: white;
+}
+
+.budget-details {
+   
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.budget-row,
+.budget-total {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 7px 0;
+}
+.budget-basis {
+    color: var(--sand);
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.budget-total {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.sample-budget-btn {
+    background-color: #276c6c;
+    color: var(--sand);
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.sample-budget-link {
+  
+    margin-bottom: 40px;
+}
+.sample-budget-btn:hover {
+    background-color: #1d5252;
+    color: white;
+}
+.cost-card {
+    background-color: var(--sand);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.cost-card .card-body {
+    padding: 25px;
+}
+
+.cost-icon {
+    font-size: 2rem;
+    color: #276c6c;
+}
+
+.cost-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cost-list li {
+    margin-bottom: 5px;
+}
+
+.cost-range {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.cost-button {
+    background-color: #276c6c;
+    color: var(--sand);
+    border: none;
+}
+
+.cost-button:hover {
+    background-color: #1d5252;
+    color: white;
+}
+.cost-categories {
+    background-color: var(--charcoal);
+
+}
+.cost-details {
+    background-color: var(--charcoal);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Main section title */
+.cost-details > .container > h2 {
+    color: var(--sand);
+  
+}
+
+/* Individual cost cards */
+.cost-detail-section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--sand);
+    border-radius: 14px;
+    padding: 25px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+
+  
+}
+
+/* Travel / Accommodation / Food titles */
+.cost-detail-section h3 {
+    color: var(--charcoal);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+/* Remove default table bottom spacing */
+.cost-table {
+    margin-bottom: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table headings */
+.cost-table thead th {
+    background-color: var(--charcoal);
+    color: var(--sand);
+
+    border: none;
+    padding: 14px 16px;
+
+    font-weight: 500;
+}
+
+/* Table cells */
+.cost-table tbody td {
+    padding: 14px 16px;
+    vertical-align: middle;
+    background-color: var(--sand);
+    border-color: #ddd5c7;
+}
+
+/* Slight alternate row effect */
+.cost-table tbody tr:nth-child(even) td {
+    background-color: var(--sand-dark);
+}
+
+/* Make price column stand out */
+.cost-table tbody td:last-child {
+    font-weight: 600;
+
+}
+
+/* Row hover */
+.cost-table tbody tr:hover td {
+    background-color: var(--jungle-green-light);
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+    .adventures-intro {
+        padding: 60px 0;
+    }
+
+    .adventure-description {
+        font-size: 1.1rem;
+    }
+    .gallery-image {
+        height: 480px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.6rem;
+    }
+     .budget-card .card-body {
+        padding: 30px;
+    }
+    .cost-details {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .cost-detail-section {
+        padding: 30px 35px;
+    }
+     .cost-card .card-body {
+        padding: 30px;
+    }
+
+    .home-link {
+        position: absolute;
+        right: 20px;
+        margin-left: 0;
+    }
+    .hero {
+        min-height: 550px;
+        justify-content: flex-start;
+        padding: 60px;
+    }
+
+    .hero-content {
+        text-align: left;
+    }
+
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+}
+@media (max-width: 767px) {
+
+    .taniti-navbar .container-fluid {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar-nav {
+        flex-direction: column !important;
+        width: 100%;
+        gap: 8px !important;
+    }
+
+    .nav-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-link {
+        display: none;
+    }
+    
+}

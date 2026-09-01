@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taniti</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header class="site-header">
+      <a href="/index.html" class="logo">
+        <img src="/images/taniti-logo.png" alt="Taniti logo" />
+      </a>
+    </header>
+    <nav class="navbar taniti-navbar">
+      <div class="container-fluid justify-content-center">
+        <div class="navbar-nav flex-row gap-2">
+          <a class="nav-link nav-button" href="adventures.html">Adventures</a>
+          <a class="nav-link nav-button" href="trip_costs.html">Trip Costs</a>
+     
+        </div>
+        <a href="index.html" class="home-link" aria-label="Home"
+          ><i class="bi bi-house-fill"></i
+        ></a>
+      </div>
+    </nav>
+  <body>
+
+    <main>
+            <!-- Trip Cost Intro -->
+    <section class="trip-costs-intro py-5">
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h1 class="display-4 mb-2">Explore Taniti Trip Costs</h1>
+
+                <p class="lead mx-auto trip-costs-description">
+                    Get an idea of what your Taniti vacation may cost.
+                    Explore typical prices for travel, accommodations,
+                    food, and activities to help plan a trip that fits
+                    your budget.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="text-center sample-budget-link">
+                <a href="#sample-budgets" class="btn sample-budget-btn">
+                    View Sample Budgets
+                </a>
+
+                <a href="#detailed-costs" class="btn sample-budget-btn">
+                    View Detailed Costs
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section class="cost-categories px-5">
+                <!-- Cost Categories -->
+            <div class="row g-4">
+
+                <!-- Travel -->
+                <div class="col-12 col-md-6">
+                    <div class="card cost-card h-100">
+
+                        <div class="card-body">
+                            <div class="cost-icon mb-3">
+                                <i class="bi bi-airplane-fill"></i>
+                            </div>
+
+                            <h2 class="h3">Travel</h2>
+
+                            <p>
+                                Compare the typical costs of getting to Taniti
+                                and traveling around the island.
+                            </p>
+
+                            <ul class="cost-list">
+                                <li>Airfare</li>
+                                <li>Rental cars</li>
+                                <li>Public buses</li>
+                                <li>Taxis</li>
+                                <li>Bike rentals</li>
+                            </ul>
+
+                            <p class="cost-range">
+                                7-day trip travel budget:
+                                <strong>$500–$1200+</strong>
+                            </p>
+
+                            <a href="#travel-costs"
+                               class="btn cost-button">
+                                View Travel Costs
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Accommodation -->
+                <div class="col-12 col-md-6">
+                    <div class="card cost-card h-100">
+
+                        <div class="card-body">
+                            <div class="cost-icon mb-3">
+                                <i class="bi bi-building"></i>
+                            </div>
+
+                            <h2 class="h3">Accommodation</h2>
+
+                            <p>
+                                Find lodging options ranging from inexpensive
+                                stays to full-service resorts.
+                            </p>
+
+                            <ul class="cost-list">
+                                <li>Hostels</li>
+                                <li>Hotels</li>
+                                <li>Resorts</li>
+                                <li>Vacation rentals</li>
+                                <li>Bed & breakfasts</li>
+                            </ul>
+
+                            <p class="cost-range">
+                                Typical nightly cost:
+                                <strong>$50–$300+</strong>
+                            </p>
+
+                            <a href="#lodging-costs"
+                               class="btn cost-button">
+                                View Lodging Costs
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Food -->
+                <div class="col-12 col-md-6">
+                    <div class="card cost-card h-100">
+
+                        <div class="card-body">
+                            <div class="cost-icon mb-3">
+                                <i class="bi bi-cup-hot-fill"></i>
+                            </div>
+
+                            <h2 class="h3">Food</h2>
+
+                            <p>
+                                Estimate your daily food budget using a mix
+                                of local restaurants, casual meals, and groceries.
+                            </p>
+
+                            <ul class="cost-list">
+                                <li>Local restaurants</li>
+                                <li>American-style restaurants</li>
+                                <li>Pan-Asian restaurants</li>
+                                <li>Grocery stores</li>
+                                <li>Convenience stores</li>
+                            </ul>
+
+                            <p class="cost-range">
+                                Typical daily food budget:
+                                <strong>$30–$100+</strong>
+                            </p>
+
+                            <a href="#food-costs"
+                               class="btn cost-button">
+                                View Food Costs
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Activities -->
+                <div class="col-12 col-md-6">
+                    <div class="card cost-card h-100">
+
+                        <div class="card-body">
+                            <div class="cost-icon mb-3">
+                                <i class="bi bi-compass-fill"></i>
+                            </div>
+
+                            <h2 class="h3">Activities</h2>
+
+                            <p>
+                                Add sightseeing and island adventures to
+                                your budget.
+                            </p>
+
+                            <ul class="cost-list">
+                                <li>Volcano tours</li>
+                                <li>Snorkeling</li>
+                                <li>Rainforest hiking</li>
+                                <li>Boat tours</li>
+                                <li>Museums and entertainment</li>
+                            </ul>
+
+                            <p class="cost-range">
+                                Typical activity cost:
+                                <strong>$15–$100+ per activity</strong>
+                            </p>
+
+                            <a href="adventures.html"
+                               class="btn cost-button">
+                                Browse Activities
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        
+  
+
+        <!-- Example Trip Budget -->
+        <section id="sample-budgets" class="sample-budgets py-5">
+            <div class="container">
+
+                <div class="text-center ">
+                    <h2>Sample Taniti Budgets</h2>
+                    <p class="budget-basis">
+                        7-day trip budgets - per person
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Budget -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card budget-card h-100">
+                            <div class="card-body d-flex flex-column">
+
+                                <h3 class="h4">Budget Trip</h3>
+
+                                <p>
+                                    A lower-cost trip using affordable lodging,
+                                    public transportation, casual meals, and a few activities.
+                                </p>
+
+                                <button class="btn budget-button mt-auto"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#budgetDetails"
+                                        aria-expanded="false"
+                                        aria-controls="budgetDetails">
+                                    View Estimated Cost
+                                </button>
+
+                                <div class="collapse mt-3" id="budgetDetails">
+
+                                    <div class="budget-details">
+
+                                        <div class="budget-row">
+                                            <span>Travel</span>
+                                            <span>$450</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Lodging</span>
+                                            <span>$420</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Food</span>
+                                            <span>$210</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Transportation</span>
+                                            <span>$80</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Activities</span>
+                                            <span>$175</span>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="budget-total">
+                                            <span>Estimated Total</span>
+                                            <span>$1,335</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Mid Range -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card budget-card h-100">
+                            <div class="card-body d-flex flex-column">
+
+                                <h3 class="h4">Mid-Range Trip</h3>
+
+                                <p>
+                                    A comfortable trip with hotel lodging,
+                                    restaurant meals, rental transportation,
+                                    and several popular island activities.
+                                </p>
+
+                                <button class="btn budget-button mt-auto"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#midRangeDetails"
+                                        aria-expanded="false"
+                                        aria-controls="midRangeDetails">
+                                    View Estimated Cost
+                                </button>
+
+                                <div class="collapse mt-3" id="midRangeDetails">
+
+                                    <div class="budget-details">
+
+                                        <div class="budget-row">
+                                            <span>Travel</span>
+                                            <span>$550</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Lodging</span>
+                                            <span>$980</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Food</span>
+                                            <span>$420</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Transportation</span>
+                                            <span>$350</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Activities</span>
+                                            <span>$425</span>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="budget-total">
+                                            <span>Estimated Total</span>
+                                            <span>$2,725</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Luxury -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card budget-card h-100">
+                            <div class="card-body d-flex flex-column">
+
+                                <h3 class="h4">Luxury Trip</h3>
+
+                                <p>
+                                    A premium vacation with resort lodging,
+                                    upscale dining, private transportation,
+                                    and multiple guided tours and excursions.
+                                </p>
+
+                                <button class="btn budget-button mt-auto"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#luxuryDetails"
+                                        aria-expanded="false"
+                                        aria-controls="luxuryDetails">
+                                    View Estimated Cost
+                                </button>
+
+                                <div class="collapse mt-3" id="luxuryDetails">
+
+                                    <div class="budget-details">
+
+                                        <div class="budget-row">
+                                            <span>Travel</span>
+                                            <span>$800</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Lodging</span>
+                                            <span>$2,100</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Food</span>
+                                            <span>$850</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Transportation</span>
+                                            <span>$650</span>
+                                        </div>
+
+                                        <div class="budget-row">
+                                            <span>Activities</span>
+                                            <span>$900</span>
+                                        </div>
+
+                                        <hr>
+
+                                        <div class="budget-total">
+                                            <span>Estimated Total</span>
+                                            <span>$5,300</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Detailed Costs -->
+        <section id="detailed-costs" class="cost-details py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-5">Explore Detailed Costs</h2>
+
+
+                <!-- Travel Costs -->
+                <div id="travel-costs" class="cost-detail-section mb-5">
+
+                    <h3>Travel</h3>
+
+                    <div class="table-responsive">
+
+                        <table class="table cost-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Transportation</th>
+                                    <th>Estimated Cost</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Round-trip Flight</td>
+                                    <td>$500–$1200+</td>
+                                </tr>
+                                <tr>
+                                    <td>Rental Car</td>
+                                    <td>$50–$90 / day</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Public Bus</td>
+                                    <td>$2–$5 / ride</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Taxi</td>
+                                    <td>$10–$40 / trip</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bike Rental</td>
+                                    <td>$15–$30 / day</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+
+
+                <!-- Lodging Costs -->
+                <div id="lodging-costs" class="cost-detail-section mb-5">
+
+                    <h3>Accommodation</h3>
+
+                    <div class="table-responsive">
+
+                        <table class="table cost-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Lodging Type</th>
+                                    <th>Estimated Cost</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Hostel</td>
+                                    <td>$50–$80 / night</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Hotel</td>
+                                    <td>$100–$180 / night</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Resort</td>
+                                    <td>$200–$350+ / night</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Vacation Rental</td>
+                                    <td>$90–$220 / night</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+
+
+                <!-- Food Costs -->
+                <div id="food-costs" class="cost-detail-section">
+
+                    <h3>Food & Dining</h3>
+
+                    <div class="table-responsive">
+
+                        <table class="table cost-table">
+
+                            <thead>
+                                <tr>
+                                    <th>Meal Type</th>
+                                    <th>Estimated Cost</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Quick Meal</td>
+                                    <td>$10–$15</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Casual Restaurant</td>
+                                    <td>$15–$30</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Upscale Restaurant</td>
+                                    <td>$35–$70+</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Groceries</td>
+                                    <td>$50–$100 / week</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+  </body>
+  <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="index.html">
+            <img
+              src="images/taniti-logo.png"
+              alt="Taniti logo"
+              class="footer-logo"
+            />
+          </a>
+
+
+          <p>&copy; 2026 Taniti</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</html>
