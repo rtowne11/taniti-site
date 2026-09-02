@@ -12,7 +12,7 @@ const adventures = [
     activity: "volcano-tours",
     image: "images/taniti-volcano-tour.png",
     description:
-      "Explore Taniti's famous volcano and enjoy spectacular views of the island.",
+      "Get an up-close look at Taniti’s famous volcano. Explore scenic trails and experience the island’s volcanic landscape firsthand!",
     price: 75,
   },
   {
@@ -21,7 +21,7 @@ const adventures = [
     activity: "snorkeling",
     image: "images/sea-turtle-snorkeling.png",
     description:
-      "Explore colorful reefs and marine life in Taniti's clear tropical waters.",
+      "Snorkel in warm island waters and discover sea turtles in their natural habitat. Enjoy an unforgettable look at Taniti’s underwater world!",
     price: 45,
   },
   {
@@ -30,7 +30,7 @@ const adventures = [
     activity: "rainforests",
     image: "images/rainforest.png",
     description:
-      "Hike through lush tropical vegetation, streams, and hidden waterfalls.",
+      "Step into the heart of Taniti’s tropical rainforest. Follow winding trails through vibrant plants and beautiful island scenery!",
     price: 55,
   },
   {
@@ -38,7 +38,7 @@ const adventures = [
     category: ["island-tours"],    
     activity: "volcano-tours",
     image: "images/ridge-tour.png",
-    description: "Explore the stunning ridges of Taniti's volcano.",
+    description: "Follow scenic routes along the slopes of Taniti’s volcano. Experience impressive views and the island’s unique volcanic landscape!",
     price: 80,
   },
   {
@@ -47,7 +47,7 @@ const adventures = [
     activity: "rainforests",
     image: "images/rainforest-expedition.png",
     description:
-      "Embark on an exciting adventure through Taniti's diverse wildlife and natural habitats.",
+      "Journey beneath the rainforest canopy and explore Taniti’s wild landscapes. Enjoy scenic trails surrounded by tropical plants and wildlife!",
     price: 70,
   },
   {
@@ -55,7 +55,7 @@ const adventures = [
     category: ["outdoor"],
     activity: "ziplining",
     image: "images/zipline1.png",
-    description: "Soar through Taniti's tropical rainforest canopy.",
+    description: "Race through the rainforest canopy on an unforgettable island adventure. Enjoy breathtaking views and an exciting journey through the trees!",
     price: 65,
   },
   {
@@ -64,7 +64,7 @@ const adventures = [
     activity: "museum",
     image: "images/heritage-museum.png",
     description:
-      "Discover the rich history and culture of Taniti at this interactive museum.",
+      "Learn more about Taniti beyond its beaches and adventures. The Taniti Heritage Museum offers a closer look at the island’s history and culture!",
     price: 25,
   },
   {
@@ -73,7 +73,7 @@ const adventures = [
     activity: "boat-tours",
     image: "images/boat-tour1.png",
     description:
-      "Experience the beauty of Taniti's coastline with a scenic boat tour.",
+      "Set sail and discover Taniti from the water. Take in tropical scenery, peaceful coves, and beautiful coastal views along the way!",
     price: 60,
   },
   {
@@ -82,7 +82,7 @@ const adventures = [
     activity: "boat-tours",
     image: "images/boat-tour2.png",
     description:
-      "Explore the hidden coves and beaches of Taniti on a guided boat tour.",
+      "Discover hidden corners of Taniti on a scenic boat journey. Enjoy peaceful waters and tropical views as you explore the island’s coastline!",
     price: 80,
   },
   {
@@ -90,7 +90,7 @@ const adventures = [
     category: ["water", "island-tours"],
     activity: "boat-tour",
     image: "images/boat-tour3.png",
-    description: "Explore the crystal-clear waters of Taniti's lagoons.",
+    description: "Cruise through the calm waters of Taniti’s beautiful lagoon. Enjoy tropical scenery and relaxing views from the boat!",
     price: 50,
   },
   {
@@ -99,7 +99,7 @@ const adventures = [
     activity: "fishing",
     image: "images/fishing.png",
     description:
-      "Go fishing in Taniti's pristine waters and catch some of the local fish.",
+      "Enjoy a laid-back day of fishing surrounded by Taniti’s tropical scenery. Go fishing in Taniti's pristine waters and catch some of the local fish!",
     price: 40,
   },
   {
@@ -107,7 +107,7 @@ const adventures = [
     category: ["water", "island-tours"],
     activity: "fishing",
     image: "images/fishing-tour.png",
-    description: "Enjoy a day of fishing in the beautiful Yellow Leaf Bay.",
+    description: "Escape to the open water for a scenic fishing experience. Yellow Leaf Bay offers the perfect setting for a relaxing island adventure!",
     price: 65,
   },
   {
@@ -116,7 +116,7 @@ const adventures = [
     activity: "helicopter",
     image: "images/helicopter.png",
     description:
-      "Take to the skies and see Taniti from a whole new perspective.",
+      "See Taniti from a whole new perspective on a scenic helicopter ride. Soar above tropical landscapes and take in breathtaking island views!",
     price: 150,
   },
   {
@@ -125,7 +125,7 @@ const adventures = [
     activity: "helicopter",
     image: "images/helo2.png",
     description:
-      "Experience the thrill of a helicopter tour over Taniti's stunning landscapes.",
+      "Discover Taniti’s natural beauty on an unforgettable helicopter tour. Enjoy panoramic views as you fly across the island!",
     price: 200,
   },
   {
@@ -133,7 +133,7 @@ const adventures = [
     category: ["culture"],
     activity: "art-gallery",
     image: "images/art-house.png",
-    description: "Explore the vibrant art scene at Merriton Art House.",
+    description: "Step inside the famous Merriton Art House and discover the spirit of Taniti. View distinctive artwork influenced by the island’s people and scenery!",
     price: 20,
   },
   {
@@ -141,7 +141,7 @@ const adventures = [
     category: ["outdoor"],
     activity: "golfing",
     image: "images/golf-course.png",
-    description: "Play a round of golf at Merriton Bay Golf Club.",
+    description: "Tee off against the scenic backdrop of Merriton Bay. Enjoy a leisurely round surrounded by tropical landscapes and coastal views!",
     price: 75,
   },
   {
@@ -149,7 +149,7 @@ const adventures = [
     category: ["culture"],
     activity: "theater",
     image: "images/theater.png",
-    description: "Enjoy traditional island music, dance, and cultural performances at the Taniti Lights Center.",
+    description: "Enjoy live performances and entertainment at Taniti Lights Center. Experience music, theater, and local productions for visitors of all ages!",
     price: 40,
   },
   {
@@ -158,7 +158,7 @@ const adventures = [
     activity: "snorkeling",
     image: "images/snorkeling.png",
     description:
-      "Swim with tropical fish in the crystal-clear waters of Taniti's reefs.",
+      "Dive into Taniti’s underwater world on a scenic reef adventure. Discover colorful coral and tropical sea life along the way!",
     price: 55,
   },
   {
@@ -166,7 +166,7 @@ const adventures = [
     category: ["culture"],
     activity: "arcade",
     image: "images/arcade.png",
-    description: "Have fun at the exciting Cove Arcade.",
+    description: "Enjoy classic arcade games at the Cove Arcade. A perfect indoor escape for the whole family!",
     price: 20,
   },
   {
@@ -175,7 +175,7 @@ const adventures = [
     activity: "pub-crawl",
     image: "images/pub-crawl.png",
     description:
-      "Experience the vibrant nightlife of Taniti on a guided pub crawl.",
+      "Visit local pubs and bars while enjoying a fun and social night out. Join a guided night pub crawl at the best spots in Taniti!",
     price: 30,
   },
   {
@@ -184,7 +184,7 @@ const adventures = [
     activity: "beaches",
     image: "images/bay-beach.png",
     description:
-      "Enjoy a day of fun and relaxation at the beautiful Yellow Leaf Bay.",
+      "Unwind beneath the island sun at Yellow Leaf Bay. Clear blue water and a scenic shoreline make it a perfect place to relax!",
     price: 10,
   },
   {
@@ -193,7 +193,7 @@ const adventures = [
     activity: "beaches",
     image: "images/taniti-beach.png",
     description:
-      "Relax on the sandy shores of Taniti Beach and soak up the sun.",
+      "Cool off at the famous Taniti Beach. Enjoy swimming, sunshine, and amazing island views!",
     price: 0,
   },
   {
@@ -201,7 +201,7 @@ const adventures = [
     category: ["water"],
     activity: "beaches",
     image: "images/marriton-beach.png",
-    description: "Experience the pristine beauty of Marriton Beach.",
+    description: "Relax on the soft sands of Marriton Beach. Swim and enjoy views of Taniti's coast!",
     price: 20,
   },
   {
@@ -209,7 +209,7 @@ const adventures = [
     category: ["island-tours", "bus-tours"],
     activity: "bus-tours",
     image: "images/bus2.png",
-    description: "Explore the beautiful landscapes of Taniti on a scenic bus tour.",
+    description: "Sit back and enjoy a scenic journey across Taniti. Visit popular sights while learning more about the island!",
     price: 50,
   },
   {
@@ -217,7 +217,7 @@ const adventures = [
     category: ["island-tours", "bus-tours"],
     activity: "bus-tours",
     image: "images/bus-tour.png",
-    description: "Discover the hidden gems of Taniti on a guided bus tour.",
+    description: "Discover the sights and stories of Taniti on a guided island tour. Visit memorable locations while learning more about the island!",
     price: 40,
   },
   {
@@ -225,7 +225,7 @@ const adventures = [
     category: ["nightlife", "culture"],
     activity: "dancing",
     image: "images/dance.png",
-    description: "Enjoy traditional island music, dance, and cultural performances at the Blue Wave Club.",
+    description: "Hit the dance floor under colorful lights and experience the best party in Taniti! Blue Wave Club offers an unforgettable night by the sea!",
     price: 40,
   },
   {
@@ -233,7 +233,7 @@ const adventures = [
     category: ["nightlife", "culture"],
     activity: "dancing",
     image: "images/dance2.png",
-    description: "Experience the vibrant nightlife of Taniti at the famous tiki bar.",
+    description: "Come and enjoy Taniti Tiki Bar. Tropical drinks and island vibes make it a perfect night out with friends!",
     price: 25,
   },
   {
@@ -241,7 +241,7 @@ const adventures = [
     category: ["outdoor"],
     activity: "ziplining",
     image: "images/zipline2.png",
-    description: "Soar through the treetops on a thrilling zipline adventure.",
+    description: "Climb into the canopy and prepare for an unforgettable ride. Zip through Taniti’s tropical rainforest surrounded by beautiful island scenery!",
     price: 80,
   }
 ];

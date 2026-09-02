@@ -529,6 +529,67 @@ body{
     background-color: var(--jungle-green-light);
 }
 
+/* Price Information Card */
+.adventure-price-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.adventure-price-card h2 {
+    color: var(--charcoal);
+    margin-bottom: 1rem;
+}
+
+/* Main Price */
+.detail-price {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--charcoal);
+    margin-bottom: 1rem;
+}
+
+.detail-price span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+/* Individual Price Details */
+.price-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem 0;
+}
+
+.price-detail-row span {
+    color: #555;
+}
+
+.price-detail-row strong {
+    color: var(--charcoal);
+}
+
+/* Book Now Button */
+.adventure-book-button {
+    background-color: #285943;
+    color: #fff;
+    border: 2px solid #285943;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.adventure-book-button:hover,
+.adventure-book-button:focus {
+    background-color: #1f4635;
+    border-color: #1f4635;
+    color: #fff;
+}
+
 /* Larger screens */
 @media (min-width: 768px) {
     .adventures-intro {
