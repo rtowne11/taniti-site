@@ -101,7 +101,7 @@ body{
             rgba(0, 0, 0, 0.35),
             rgba(0, 0, 0, 0.35)
         ),
-        url("../images/volcano-hero.png");
+        url("images/volcano-hero.png");
 
     background-size: cover;
     background-position: center;
